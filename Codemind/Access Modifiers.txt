@@ -1,0 +1,30 @@
+1] How many types of access modifiers is available in Java?
+Ans:There are total 4 access modifiers in java namely   Default, Public, Private and Protected.
+
+2]What happens if you don't specify access modifier?
+Ans: Then all members are considered as “default”(access modifier).
+
+3] Can we make a class private in Java?
+Ans: No we cant because its violation of rule and even making class private is useless.
+
+4] Can we declare a class as protected?
+Ans: No we cant because its violation of rule and Nested classes, which are defined inside another                                             class, can have the protected access modifier
+
+5] Why you should make your field private in Java?
+Ans : To implement encapsulation that is security which makes sure that they are not used directky outside the class
+
+6] Why getter method is better than public variables in Java?
+Ans: Getter methods are better than public variables in Java because they provide encapsulation, allowing for better control over data access
+
+7] What is difference between public and protected modifier in Java?
+Ans: Public members are accessible from any class, while protected members are accessible within the same package and by subclasses.
+
+8] Can we have a private constructor in Java? What is the role of private constructor in Java?
+Ans :Yes, we can have a private constructor in Java. The role of a private constructor in Java is to prevent the instantiation of a class from outside itself.
+
+9] Can we declare a top-level class as protected?
+Ans: No, protected access modifier is only applicable to class members (fields and methods) within a class.
+
+10] Why are access modifiers used?
+Ans  :Access modifiers are used to control the visibility and accessibility of classes, methods, and variables in order to implement encapsulation and maintain proper access control in Java.
+
